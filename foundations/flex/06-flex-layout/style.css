@@ -29,4 +29,18 @@ input {
   display: flex;
   justify-content: space-between;
   color: gray;
+  padding: 10px;
+}
+
+.left-links, .right-links {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
 }
