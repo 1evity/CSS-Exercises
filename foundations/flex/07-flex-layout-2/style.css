@@ -26,7 +26,9 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
-  padding: 15px;
+  padding: 16px;
+  display: flex;
+  flex-shrink: 0;
 }
 
 .card {
@@ -47,10 +49,8 @@ body {
 
 ul {
   list-style: none;
-  display: flex;
   margin: 0px;
   padding: 0px;
-  flex-direction: column;
 }
 
 a {
